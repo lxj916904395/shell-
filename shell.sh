@@ -140,7 +140,7 @@ else
                 then
                 #上传到Fir
                 # 将XXX替换成自己的Fir平台的token
-                fir login -T 32b6a0e5066c66c0e3e8146836546d93
+                fir login -T xxx
                 fir publish $exportIpaPath/$scheme_name.ipa
             else
                 echo "开始上传到蒲公英"
