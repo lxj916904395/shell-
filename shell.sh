@@ -93,7 +93,8 @@ xcodebuild -exportArchive -archivePath ${build_path}/${project_name}.xcarchive \
 -exportOptionsPlist ${exportOptionsPlistPath} \
 -quiet || exit
 
-
+# 若报错 error: exportArchive: The data couldn’t be read because it isn’t in the correct format.
+# 则可能是bitcode 为 YES，改为NO 即可
 
 
 if [ -e $exportIpaPath/$scheme_name.ipa ];
