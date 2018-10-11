@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>app identifier</key>
-	<string>com.zhongding.ft.btc</string>
+	<string>app bundle id</string>
 	<key>compileBitcode</key>
 	<true/>
 	<key>method</key>
 	<string>ad-hoc</string>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>com.zhongding.ft.btc</key>
-		<string>ft_btc.ad_hoc</string>
+		<key>app bundle id</key>
+		<string>描述文件name</string>
 	</dict>
 	<key>signingStyle</key>
 	<string>manual</string>
